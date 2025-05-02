@@ -1,0 +1,174 @@
+/* Audio Section Styles */
+.audio-section {
+    padding: 80px 0;
+    background: linear-gradient(rgba(var(--color-primary-rgb), 0.05), rgba(var(--color-primary-rgb), 0.1));
+}
+
+.audio-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.audio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.audio-image {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.audio-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.audio-card:hover .audio-image img {
+    transform: scale(1.1);
+}
+
+.audio-content {
+    padding: 25px;
+}
+
+.audio-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--color-secondary);
+}
+
+.audio-content p {
+    color: var(--color-secondary-light);
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Custom Audio Player Styles */
+.custom-audio-player {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background: var(--color-primary);
+    opacity: 0.9;
+}
+
+.custom-audio-player::-webkit-media-controls-panel {
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+}
+
+.custom-audio-player::-webkit-media-controls-play-button,
+.custom-audio-player::-webkit-media-controls-mute-button {
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Prevention Cards Styles */
+.prevention-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.prevention-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.prevention-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.prevention-content {
+    padding: 30px;
+}
+
+.prevention-content h3 {
+    color: var(--color-secondary);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.prevention-content p {
+    color: var(--color-secondary-light);
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.read-more {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.read-more i {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.read-more:hover {
+    color: var(--color-primary-dark);
+}
+
+.read-more:hover i {
+    transform: translateX(5px);
+}
+
+/* Enhanced General Styles */
+:root {
+    --color-primary: #e91e63;
+    --color-primary-dark: #c2185b;
+    --color-primary-rgb: 233, 30, 99;
+    --color-secondary: #333333;
+    --color-secondary-light: #666666;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--color-primary);
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.section-title p {
+    text-align: center;
+    color: var(--color-secondary-light);
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+} 

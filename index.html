@@ -1,996 +1,1603 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Index - HIV/AIDS AWARENESS WEBSITE</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - HIV/AIDS AWARENESS WEBSITE</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <!-- Custom CSS File -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+  </head>
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-</head>
-
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="">
-        <h1 class="sitename">HIV/AIDS</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About HIV</a></li>
-          <li><a href="#prevention">Prevention</a></li>
-          <li><a href="#resources">Resources</a></li>
-          <li><a href="#support">Support</a></li>
-          <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#testing">Testing</a></li>
-              <li><a href="#treatment">Treatment</a></li>
-              <li><a href="#statistics">Statistics</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="#testing">Get Tested</a>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <!-- Slide 1: Awareness -->
-        <div class="carousel-item active">
-          <img src="assets/img/hiv-awareness-group.jpg" alt="Diverse group holding red ribbons for HIV awareness">
-          <div class="carousel-container">
-            <h2>End HIV Stigma Together</h2>
-            <p>Education and understanding are key to prevention and support</p>
-            <a href="#education" class="btn-get-started">Learn About HIV</a>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <!-- Slide 2: Testing -->
-        <div class="carousel-item">
-          <img src="assets/img/hiv-testing.jpg" alt="Medical professional holding HIV test kit">
-          <div class="carousel-container">
-            <h2>Know Your Status</h2>
-            <p>Free confidential testing and counseling services available nationwide</p>
-            <a href="#testing" class="btn-get-started">Find a Testing Center</a>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <!-- Slide 3: Treatment -->
-        <div class="carousel-item">
-          <img src="assets/img/hiv-treatment.jpg" alt="Doctor consulting with patient">
-          <div class="carousel-container">
-            <h2>Live Positively</h2>
-            <p>Modern treatments enable people with HIV to live long, healthy lives</p>
-            <a href="#treatment" class="btn-get-started">Explore Treatment Options</a>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <!-- Carousel Controls -->
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/logo.png" alt="" />
+          <h1 class="sitename">HIV/AIDS</h1>
         </a>
 
-        <ol class="carousel-indicators"></ol>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About HIV</a></li>
+            <li><a href="#prevention">Prevention</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#audio-resources">Audio Resources</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>More</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="#testing">Testing</a></li>
+                <li><a href="#treatment">Treatment</a></li>
+                <li><a href="#statistics">Statistics</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
+        <a class="btn-getstarted" href="#testing">Get Tested</a>
       </div>
-    </section><!-- /Hero Section -->
+    </header>
 
-    <!-- About Section -->
-    <section id="about" class="about section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Understanding HIV/AIDS</h2>
-        <p>Essential facts about transmission, prevention, and modern treatment options</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up">
-        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-6">
-            <div class="about-img">
-              <img src="assets/img/hiv-virus-diagram.jpg" class="img-fluid"
-                alt="HIV virus structure and cell infection diagram">
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <div
+          id="hero-carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <!-- Slide 1: Awareness -->
+          <div class="carousel-item active">
+            <img
+              src="assets/img/hiv-awareness-group.jpg"
+              alt="Diverse group holding red ribbons for HIV awareness"
+            />
+            <div class="carousel-container">
+              <h2>End HIV Stigma Together</h2>
+              <p>
+                Education and understanding are key to prevention and support
+              </p>
+              <a href="#education" class="btn-get-started">Learn About HIV</a>
             </div>
           </div>
+          <!-- End Carousel Item -->
 
-          <div class="col-lg-6">
-            <h3 class="pt-0 pt-lg-5">Key Facts About HIV/AIDS</h3>
-
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li><a class="nav-link active" data-bs-toggle="pill" href="#transmission">Transmission</a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#prevention">Prevention</a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#treatment">Treatment</a></li>
-            </ul><!-- End Tabs -->
-
-            <!-- Tab Content -->
-            <div class="tab-content">
-
-              <!-- Transmission Tab -->
-              <div class="tab-pane fade show active" id="transmission">
-                <p class="fst-italic">HIV can only be transmitted through specific bodily fluids:</p>
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-check2 text-primary"></i>
-                  <h4>Transmission Methods</h4>
-                </div>
-                <ul>
-                  <li>Unprotected sexual contact</li>
-                  <li>Sharing needles/syringes</li>
-                  <li>Mother-to-child during birth/breastfeeding</li>
-                  <li>Blood transfusions (rare with modern screening)</li>
-                </ul>
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-x-circle text-danger"></i>
-                  <h4>Cannot Spread Through</h4>
-                </div>
-                <p>Casual contact, saliva, tears, sweat, or insect bites</p>
-              </div><!-- End Transmission Content -->
-
-              <!-- Prevention Tab -->
-              <div class="tab-pane fade" id="prevention">
-                <p class="fst-italic">Effective prevention strategies include:</p>
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-shield-check text-success"></i>
-                  <h4>Proven Methods</h4>
-                </div>
-                <ul>
-                  <li>Consistent condom use</li>
-                  <li>Pre-Exposure Prophylaxis (PrEP)</li>
-                  <li>Post-Exposure Prophylaxis (PEP)</li>
-                  <li>Sterile needle programs</li>
-                  <li>Regular testing and partner communication</li>
-                </ul>
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-graph-up-arrow text-info"></i>
-                  <h4>Progress</h4>
-                </div>
-                <p>Mother-to-child transmission rates below 1% with proper treatment</p>
-              </div><!-- End Prevention Content -->
-
-              <!-- Treatment Tab -->
-              <div class="tab-pane fade" id="treatment">
-                <p class="fst-italic">Modern HIV treatment enables normal life expectancy:</p>
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-capsule text-warning"></i>
-                  <h4>Antiretroviral Therapy (ART)</h4>
-                </div>
-                <ul>
-                  <li>Daily medication suppresses viral load</li>
-                  <li>Prevents progression to AIDS</li>
-                  <li>Reduces transmission risk by 99% (U=U)</li>
-                </ul>
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-heart-pulse text-danger"></i>
-                  <h4>Living with HIV</h4>
-                </div>
-                <p>With proper treatment:
-                  <br>• 79% reduction in AIDS-related deaths since 2000
-                  <br>• Near-normal life expectancy for those diagnosed early
-                </p>
-              </div><!-- End Treatment Content -->
-
-            </div><!-- End Tab Content -->
-          </div><!-- End Col -->
-        </div><!-- End Row -->
-      </div><!-- End Container -->
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-heart-pulse"></i>
-              <span data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Million People</strong> <span>living with HIV globally</span></p>
+          <!-- Slide 2: Testing -->
+          <div class="carousel-item">
+            <img
+              src="assets/img/hiv-testing.jpg"
+              alt="Medical professional holding HIV test kit"
+            />
+            <div class="carousel-container">
+              <h2>Know Your Status</h2>
+              <p>
+                Free confidential testing and counseling services available
+                nationwide
+              </p>
+              <a href="#testing" class="btn-get-started"
+                >Find a Testing Center</a
+              >
             </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-capsule"></i>
-              <span data-purecounter-start="0" data-purecounter-end="29" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Million People</strong> <span>accessing antiretroviral therapy</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-geo-alt"></i>
-              <span data-purecounter-start="0" data-purecounter-end="67" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Percent Reduction</strong> <span>in new HIV infections since 2000</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Percent Effectiveness</strong> <span>of proper HIV treatment</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-        </div>
-      </div>
-    </section><!-- /Stats Section -->
-
-
-    <!-- Clients Section -->
-    <section id="partners" class="partners section light-background">
-      <div class="container" data-aos="fade-up">
-        <div class="row gy-4">
-          <div class="col-xl-2 col-md-3 col-6 partner-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="UNAIDS logo">
-          </div><!-- End Partner Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 partner-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="WHO logo">
-          </div><!-- End Partner Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 partner-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="The Global Fund logo">
-          </div><!-- End Partner Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 partner-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="PEPFAR logo">
-          </div><!-- End Partner Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 partner-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="Doctors Without Borders logo">
-          </div><!-- End Partner Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 partner-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="Bill & Melinda Gates Foundation logo">
-          </div><!-- End Partner Item -->
-        </div>
-      </div>
-    </section><!-- /Partners Section -->
-
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>HIV/AIDS Services</h2>
-        <p>Comprehensive support and care for those affected by HIV and AIDS through prevention, testing, treatment, and
-          community programs</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-clipboard2-pulse"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>HIV Testing</h3>
-              </a>
-              <p>Confidential and rapid HIV testing services with same-day results, counseling, and immediate linkage to
-                care for those who test positive.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-capsule"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Antiretroviral Therapy</h3>
-              </a>
-              <p>Access to life-saving antiretroviral medications, adherence support, and regular monitoring to ensure
-                viral suppression and improved health outcomes.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-shield-check"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>PrEP Services</h3>
-              </a>
-              <p>Pre-Exposure Prophylaxis counseling and medication for individuals at high risk of HIV infection,
-                reducing transmission risk by up to 99% when taken as prescribed.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-people"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Support Groups</h3>
-              </a>
-              <p>Facilitated peer support meetings for people living with HIV/AIDS, creating safe spaces for sharing
-                experiences, coping strategies, and emotional support.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-book"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Education Programs</h3>
-              </a>
-              <p>Evidence-based prevention education, workshops, and community outreach to increase HIV awareness,
-                reduce stigma, and promote safer sexual practices.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-house-heart"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Housing Assistance</h3>
-              </a>
-              <p>Housing support services for people living with HIV/AIDS, including emergency housing, rental
-                assistance, and long-term housing placement to promote stability and treatment adherence.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-      </div>
-    </section><!-- /Services Section -->
-
-
-    <!-- Why Us Section -->
-    <section id="why-us" class="why-us section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Why Choose Us</h2>
-        <p>Our organization is dedicated to providing comprehensive HIV/AIDS care with compassion, expertise, and a
-          commitment to ending the epidemic</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-item">
-              <span>01</span>
-              <h4><a href="" class="stretched-link">Comprehensive Care</a></h4>
-              <p>Our integrated approach combines prevention, testing, treatment, and support services in one location,
-                ensuring seamless access to all aspects of HIV/AIDS care</p>
-            </div>
-          </div><!-- Card Item -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-item">
-              <span>02</span>
-              <h4><a href="" class="stretched-link">Expert Medical Team</a></h4>
-              <p>Our healthcare providers specialize in HIV medicine and stay current with the latest treatment
-                advances, offering evidence-based care that maximizes health outcomes</p>
-            </div>
-          </div><!-- Card Item -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <span>03</span>
-              <h4><a href="" class="stretched-link">Community-Centered Approach</a></h4>
-              <p>We involve people living with HIV in program design and delivery, ensuring our services address real
-                needs while fighting stigma through education and advocacy</p>
-            </div>
-          </div><!-- Card Item -->
-
-        </div>
-      </div>
-
-    </section><!-- /Why Us Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>HIV/AIDS Initiatives</h2>
-        <p>Exploring awareness campaigns, prevention methods, and support programs worldwide</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-awareness">Awareness</li>
-            <li data-filter=".filter-prevention">Prevention</li>
-            <li data-filter=".filter-support">Support</li>
-            <li data-filter=".filter-research">Research</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <!-- Awareness Items -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-awareness">
-              <img src="https://images.pexels.com/photos/6646376/pexels-photo-6646376.jpeg" class="img-fluid"
-                alt="Community HIV education workshop">
-              <div class="portfolio-info">
-                <h4>Red Ribbon Campaign</h4>
-                <p>Global symbol of HIV awareness and solidarity</p>
-                <a href="https://images.pexels.com/photos/6646376/pexels-photo-6646376.jpeg" title="Awareness Campaign"
-                  data-gallery="portfolio-gallery-awareness" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="awareness-details.html" title="Campaign Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <!-- Prevention Items -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prevention">
-              <img src="https://images.pexels.com/photos/7338562/pexels-photo-7338562.jpeg" class="img-fluid"
-                alt="Medical professional demonstrating condom use">
-              <div class="portfolio-info">
-                <h4>Safe Sex Education</h4>
-                <p>Proper protection methods demonstration</p>
-                <a href="https://images.pexels.com/photos/7338562/pexels-photo-7338562.jpeg" title="Prevention Methods"
-                  data-gallery="portfolio-gallery-prevention" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="prevention-details.html" title="Method Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <!-- Support Items -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-support">
-              <img src="https://images.pexels.com/photos/6682984/pexels-photo-6682984.jpeg" class="img-fluid"
-                alt="Support group meeting">
-              <div class="portfolio-info">
-                <h4>Community Support</h4>
-                <p>Peer-led counseling and group therapy sessions</p>
-                <a href="https://images.pexels.com/photos/6682984/pexels-photo-6682984.jpeg" title="Support Network"
-                  data-gallery="portfolio-gallery-support" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="support-details.html" title="Program Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <!-- Research Items -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-research">
-              <img src="https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg" class="img-fluid"
-                alt="Scientist working in lab">
-              <div class="portfolio-info">
-                <h4>Medical Research</h4>
-                <p>Developing advanced antiretroviral therapies</p>
-                <a href="https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg" title="HIV Research"
-                  data-gallery="portfolio-gallery-research" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="research-details.html" title="Study Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <!-- Additional Items -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-awareness">
-              <img src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg" class="img-fluid"
-                alt="World AIDS Day event">
-              <div class="portfolio-info">
-                <h4>World AIDS Day</h4>
-                <p>Annual global health observance</p>
-                <a href="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg" title="Awareness Event"
-                  data-gallery="portfolio-gallery-awareness" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="event-details.html" title="Event Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prevention">
-              <img src="https://images.pexels.com/photos/7338570/pexels-photo-7338570.jpeg" class="img-fluid"
-                alt="HIV testing kit demonstration">
-              <div class="portfolio-info">
-                <h4>Home Testing</h4>
-                <p>Confidential self-testing solutions</p>
-                <a href="https://images.pexels.com/photos/7338570/pexels-photo-7338570.jpeg" title="Testing Methods"
-                  data-gallery="portfolio-gallery-prevention" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="testing-details.html" title="Testing Info" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Access to Care</h2>
-        <p>HIV prevention and treatment options available through various support programs</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row g-4 g-lg-0">
-
-          <!-- Basic Testing Tier -->
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Essential Services</h3>
-              <h4><sup>$</sup>0<span> / service</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> Free HIV testing</li>
-                <li><i class="bi bi-check"></i> Condom distribution</li>
-                <li><i class="bi bi-check"></i> Basic counseling</li>
-                <li class="na"><i class="bi bi-x"></i> PrEP/PEP medications</li>
-                <li class="na"><i class="bi bi-x"></i> Advanced treatment</li>
-              </ul>
-              <div class="text-center"><a href="#testing" class="buy-btn">Access Services</a></div>
-            </div>
-          </div><!-- End Tier -->
-
-          <!-- Prevention Tier -->
-          <div class="col-lg-4 featured" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item">
-              <h3>Prevention Care</h3>
-              <h4><sup>$</sup>0<span> / program</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> PrEP/PEP availability</li>
-                <li><i class="bi bi-check"></i> Regular testing</li>
-                <li><i class="bi bi-check"></i> Risk counseling</li>
-                <li><i class="bi bi-check"></i> Needle exchange</li>
-                <li><i class="bi bi-check"></i> Partner notification</li>
-              </ul>
-              <div class="text-center"><a href="#prevention" class="buy-btn">Start Prevention</a></div>
-            </div>
-          </div><!-- End Tier -->
-
-          <!-- Comprehensive Care Tier -->
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Full Treatment</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> Antiretroviral therapy</li>
-                <li><i class="bi bi-check"></i> Viral load monitoring</li>
-                <li><i class="bi bi-check"></i> Mental health support</li>
-                <li><i class="bi bi-check"></i> Nutritional guidance</li>
-                <li><i class="bi bi-check"></i> Specialist consultations</li>
-              </ul>
-              <div class="text-center"><a href="#treatment" class="buy-btn">Begin Treatment</a></div>
-            </div>
-          </div><!-- End Tier -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Pricing Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>HIV/AIDS FAQs</h2>
-        <p>Common questions about transmission, prevention, and living with HIV</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-8">
-
-            <div class="faq-container">
-
-              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>How is HIV transmitted?</h3>
-                <div class="faq-content">
-                  <p>HIV spreads through specific bodily fluids:
-                    <br>- Blood
-                    <br>- Semen
-                    <br>- Vaginal fluids
-                    <br>- Rectal fluids
-                    <br>- Breast milk
-                    <br>Common transmission routes include unprotected sex, sharing needles, and mother-to-child during
-                    birth/breastfeeding.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Can HIV be prevented?</h3>
-                <div class="faq-content">
-                  <p>Yes! Effective prevention methods include:
-                    <br>- Using condoms consistently
-                    <br>- PrEP (pre-exposure prophylaxis)
-                    <br>- PEP (post-exposure prophylaxis)
-                    <br>- Regular testing
-                    <br>- Undetectable = Untransmittable (U=U) treatment
-                    <br>- Sterile needle programs
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Can I get HIV from casual contact?</h3>
-                <div class="faq-content">
-                  <p>No. HIV cannot be transmitted through:
-                    <br>- Hugging or shaking hands
-                    <br>- Sharing food/drinks
-                    <br>- Toilet seats
-                    <br>- Mosquito bites
-                    <br>- Saliva, tears, or sweat
-                    <br>Normal social contact is completely safe.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>How often should I get tested?</h3>
-                <div class="faq-content">
-                  <p>Testing frequency depends on risk factors:
-                    <br>- Sexually active adults: At least once yearly
-                    <br>- Multiple partners/condomless sex: Every 3-6 months
-                    <br>- PEP/PrEP users: Every 3 months
-                    <br>- Pregnant women: Early prenatal testing
-                    <br>Immediate testing if exposure suspected
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Is HIV still fatal?</h3>
-                <div class="faq-content">
-                  <p>With modern treatment:
-                    <br>- People with HIV can live normal lifespans
-                    <br>- ART (antiretroviral therapy) suppresses the virus
-                    <br>- 99% reduction in transmission risk when undetectable
-                    <br>- Early diagnosis is crucial
-                    <br>While not curable yet, HIV is a manageable chronic condition
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
           </div>
+          <!-- End Carousel Item -->
 
+          <!-- Slide 3: Treatment -->
+          <div class="carousel-item">
+            <img
+              src="assets/img/hiv-treatment.jpg"
+              alt="Doctor consulting with patient"
+            />
+            <div class="carousel-container">
+              <h2>Live Positively</h2>
+              <p>
+                Modern treatments enable people with HIV to live long, healthy
+                lives
+              </p>
+              <a href="#treatment" class="btn-get-started"
+                >Explore Treatment Options</a
+              >
+            </div>
+          </div>
+          <!-- End Carousel Item -->
+
+          <!-- Carousel Controls -->
+          <a
+            class="carousel-control-prev"
+            href="#hero-carousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#hero-carousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <ol class="carousel-indicators"></ol>
         </div>
+      </section>
+      <!-- /Hero Section -->
 
-      </div>
-
-    </section><!-- /Faq Section -->
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Get in Touch</h2>
-        <p>Confidential support and information about HIV prevention and treatment</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Visit Us</h3>
-              <p>HIV Support Center<br>123 Health Way, Clinic District</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
-              <i class="bi bi-telephone"></i>
-              <h3>24/7 Hotline</h3>
-              <p>1-800-448-0448<br>(National HIV/AIDS Hotline)</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Support</h3>
-              <p>support@hivawareness.org<br>confidential@hivcare.org</p>
-            </div>
-          </div><!-- End Info Item -->
-
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Understanding HIV/AIDS</h2>
+          <p>
+            Essential facts about transmission, prevention, and modern treatment
+            options
+          </p>
         </div>
+        <!-- End Section Title -->
 
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+        <div class="container" data-aos="fade-up">
+          <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-6">
+              <div class="about-img">
+                <img
+                  src="assets/img/hiv-virus-diagram.jpg"
+                  class="img-fluid"
+                  alt="HIV virus structure and cell infection diagram"
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <h3 class="pt-0 pt-lg-5">Key Facts About HIV/AIDS</h3>
+
+              <!-- Tabs -->
+              <ul class="nav nav-pills mb-3">
+                <li>
+                  <a
+                    class="nav-link active"
+                    data-bs-toggle="pill"
+                    href="#transmission"
+                    >Transmission</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link" data-bs-toggle="pill" href="#prevention"
+                    >Prevention</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link" data-bs-toggle="pill" href="#treatment"
+                    >Treatment</a
+                  >
+                </li>
+              </ul>
+              <!-- End Tabs -->
+
+              <!-- Tab Content -->
+              <div class="tab-content">
+                <!-- Transmission Tab -->
+                <div class="tab-pane fade show active" id="transmission">
+                  <p class="fst-italic">
+                    HIV can only be transmitted through specific bodily fluids:
+                  </p>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-check2 text-primary"></i>
+                    <h4>Transmission Methods</h4>
+                  </div>
+                  <ul>
+                    <li>Unprotected sexual contact</li>
+                    <li>Sharing needles/syringes</li>
+                    <li>Mother-to-child during birth/breastfeeding</li>
+                    <li>Blood transfusions (rare with modern screening)</li>
+                  </ul>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-x-circle text-danger"></i>
+                    <h4>Cannot Spread Through</h4>
+                  </div>
+                  <p>Casual contact, saliva, tears, sweat, or insect bites</p>
+                </div>
+                <!-- End Transmission Content -->
+
+                <!-- Prevention Tab -->
+                <div class="tab-pane fade" id="prevention">
+                  <p class="fst-italic">
+                    Effective prevention strategies include:
+                  </p>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-shield-check text-success"></i>
+                    <h4>Proven Methods</h4>
+                  </div>
+                  <ul>
+                    <li>Consistent condom use</li>
+                    <li>Pre-Exposure Prophylaxis (PrEP)</li>
+                    <li>Post-Exposure Prophylaxis (PEP)</li>
+                    <li>Sterile needle programs</li>
+                    <li>Regular testing and partner communication</li>
+                  </ul>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-graph-up-arrow text-info"></i>
+                    <h4>Progress</h4>
+                  </div>
+                  <p>
+                    Mother-to-child transmission rates below 1% with proper
+                    treatment
+                  </p>
+                </div>
+                <!-- End Prevention Content -->
+
+                <!-- Treatment Tab -->
+                <div class="tab-pane fade" id="treatment">
+                  <p class="fst-italic">
+                    Modern HIV treatment enables normal life expectancy:
+                  </p>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-capsule text-warning"></i>
+                    <h4>Antiretroviral Therapy (ART)</h4>
+                  </div>
+                  <ul>
+                    <li>Daily medication suppresses viral load</li>
+                    <li>Prevents progression to AIDS</li>
+                    <li>Reduces transmission risk by 99% (U=U)</li>
+                  </ul>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-heart-pulse text-danger"></i>
+                    <h4>Living with HIV</h4>
+                  </div>
+                  <p>
+                    With proper treatment: <br />• 79% reduction in AIDS-related
+                    deaths since 2000 <br />• Near-normal life expectancy for
+                    those diagnosed early
+                  </p>
+                </div>
+                <!-- End Treatment Content -->
+              </div>
+              <!-- End Tab Content -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Container -->
+      </section>
+      <!-- /About Section -->
+
+      <!-- Stats Section -->
+      <section id="stats" class="stats section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item">
+                <i class="bi bi-heart-pulse"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="38"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>
+                  <strong>Million People</strong>
+                  <span>living with HIV globally</span>
+                </p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
 
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name (Optional)">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item">
+                <i class="bi bi-capsule"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="29"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>
+                  <strong>Million People</strong>
+                  <span>accessing antiretroviral therapy</span>
+                </p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item">
+                <i class="bi bi-geo-alt"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="67"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>
+                  <strong>Percent Reduction</strong>
+                  <span>in new HIV infections since 2000</span>
+                </p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="95"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>
+                  <strong>Percent Effectiveness</strong>
+                  <span>of proper HIV treatment</span>
+                </p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Stats Section -->
+
+      <!-- Clients Section -->
+      <section id="partners" class="partners section light-background">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div class="col-xl-2 col-md-3 col-6 partner-logo">
+              <img
+                src="assets/img/clients/client-1.png"
+                class="img-fluid"
+                alt="UNAIDS logo"
+              />
+            </div>
+            <!-- End Partner Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 partner-logo">
+              <img
+                src="assets/img/clients/client-2.png"
+                class="img-fluid"
+                alt="WHO logo"
+              />
+            </div>
+            <!-- End Partner Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 partner-logo">
+              <img
+                src="assets/img/clients/client-3.png"
+                class="img-fluid"
+                alt="The Global Fund logo"
+              />
+            </div>
+            <!-- End Partner Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 partner-logo">
+              <img
+                src="assets/img/clients/client-4.png"
+                class="img-fluid"
+                alt="PEPFAR logo"
+              />
+            </div>
+            <!-- End Partner Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 partner-logo">
+              <img
+                src="assets/img/clients/client-5.png"
+                class="img-fluid"
+                alt="Doctors Without Borders logo"
+              />
+            </div>
+            <!-- End Partner Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 partner-logo">
+              <img
+                src="assets/img/clients/client-6.png"
+                class="img-fluid"
+                alt="Bill & Melinda Gates Foundation logo"
+              />
+            </div>
+            <!-- End Partner Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Partners Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>HIV/AIDS Services</h2>
+          <p>
+            Comprehensive support and care for those affected by HIV and AIDS
+            through prevention, testing, treatment, and community programs
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-clipboard2-pulse"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>HIV Testing</h3>
+                </a>
+                <p>
+                  Confidential and rapid HIV testing services with same-day
+                  results, counseling, and immediate linkage to care for those
+                  who test positive.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-capsule"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Antiretroviral Therapy</h3>
+                </a>
+                <p>
+                  Access to life-saving antiretroviral medications, adherence
+                  support, and regular monitoring to ensure viral suppression
+                  and improved health outcomes.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>PrEP Services</h3>
+                </a>
+                <p>
+                  Pre-Exposure Prophylaxis counseling and medication for
+                  individuals at high risk of HIV infection, reducing
+                  transmission risk by up to 99% when taken as prescribed.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Support Groups</h3>
+                </a>
+                <p>
+                  Facilitated peer support meetings for people living with
+                  HIV/AIDS, creating safe spaces for sharing experiences, coping
+                  strategies, and emotional support.
+                </p>
+                <a href="service-details.html" class="stretched-link"></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-book"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Education Programs</h3>
+                </a>
+                <p>
+                  Evidence-based prevention education, workshops, and community
+                  outreach to increase HIV awareness, reduce stigma, and promote
+                  safer sexual practices.
+                </p>
+                <a href="service-details.html" class="stretched-link"></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-house-heart"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Housing Assistance</h3>
+                </a>
+                <p>
+                  Housing support services for people living with HIV/AIDS,
+                  including emergency housing, rental assistance, and long-term
+                  housing placement to promote stability and treatment
+                  adherence.
+                </p>
+                <a href="service-details.html" class="stretched-link"></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Why Us Section -->
+      <section id="why-us" class="why-us section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Why Choose Us</h2>
+          <p>
+            Our organization is dedicated to providing comprehensive HIV/AIDS
+            care with compassion, expertise, and a commitment to ending the
+            epidemic
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="card-item">
+                <span>01</span>
+                <h4>
+                  <a href="" class="stretched-link">Comprehensive Care</a>
+                </h4>
+                <p>
+                  Our integrated approach combines prevention, testing,
+                  treatment, and support services in one location, ensuring
+                  seamless access to all aspects of HIV/AIDS care
+                </p>
+              </div>
+            </div>
+            <!-- Card Item -->
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card-item">
+                <span>02</span>
+                <h4>
+                  <a href="" class="stretched-link">Expert Medical Team</a>
+                </h4>
+                <p>
+                  Our healthcare providers specialize in HIV medicine and stay
+                  current with the latest treatment advances, offering
+                  evidence-based care that maximizes health outcomes
+                </p>
+              </div>
+            </div>
+            <!-- Card Item -->
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-item">
+                <span>03</span>
+                <h4>
+                  <a href="" class="stretched-link"
+                    >Community-Centered Approach</a
+                  >
+                </h4>
+                <p>
+                  We involve people living with HIV in program design and
+                  delivery, ensuring our services address real needs while
+                  fighting stigma through education and advocacy
+                </p>
+              </div>
+            </div>
+            <!-- Card Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Why Us Section -->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>HIV/AIDS Initiatives</h2>
+          <p>
+            Exploring awareness campaigns, prevention methods, and support
+            programs worldwide
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul
+              class="portfolio-filters isotope-filters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-awareness">Awareness</li>
+              <li data-filter=".filter-prevention">Prevention</li>
+              <li data-filter=".filter-support">Support</li>
+              <li data-filter=".filter-research">Research</li>
+            </ul>
+            <!-- End Portfolio Filters -->
+
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <!-- Awareness Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-awareness"
+              >
+                <img
+                  src="https://images.pexels.com/photos/6646376/pexels-photo-6646376.jpeg"
+                  class="img-fluid"
+                  alt="Community HIV education workshop"
+                />
+                <div class="portfolio-info">
+                  <h4>Red Ribbon Campaign</h4>
+                  <p>Global symbol of HIV awareness and solidarity</p>
+                  <a
+                    href="https://images.pexels.com/photos/6646376/pexels-photo-6646376.jpeg"
+                    title="Awareness Campaign"
+                    data-gallery="portfolio-gallery-awareness"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="awareness-details.html"
+                    title="Campaign Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <!-- Prevention Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prevention"
+              >
+                <img
+                  src="https://images.pexels.com/photos/7338562/pexels-photo-7338562.jpeg"
+                  class="img-fluid"
+                  alt="Medical professional demonstrating condom use"
+                />
+                <div class="portfolio-info">
+                  <h4>Safe Sex Education</h4>
+                  <p>Proper protection methods demonstration</p>
+                  <a
+                    href="https://images.pexels.com/photos/7338562/pexels-photo-7338562.jpeg"
+                    title="Prevention Methods"
+                    data-gallery="portfolio-gallery-prevention"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="prevention-details.html"
+                    title="Method Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <!-- Support Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-support"
+              >
+                <img
+                  src="https://images.pexels.com/photos/6682984/pexels-photo-6682984.jpeg"
+                  class="img-fluid"
+                  alt="Support group meeting"
+                />
+                <div class="portfolio-info">
+                  <h4>Community Support</h4>
+                  <p>Peer-led counseling and group therapy sessions</p>
+                  <a
+                    href="https://images.pexels.com/photos/6682984/pexels-photo-6682984.jpeg"
+                    title="Support Network"
+                    data-gallery="portfolio-gallery-support"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="support-details.html"
+                    title="Program Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <!-- Research Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-research"
+              >
+                <img
+                  src="https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg"
+                  class="img-fluid"
+                  alt="Scientist working in lab"
+                />
+                <div class="portfolio-info">
+                  <h4>Medical Research</h4>
+                  <p>Developing advanced antiretroviral therapies</p>
+                  <a
+                    href="https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg"
+                    title="HIV Research"
+                    data-gallery="portfolio-gallery-research"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="research-details.html"
+                    title="Study Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <!-- Additional Items -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-awareness"
+              >
+                <img
+                  src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg"
+                  class="img-fluid"
+                  alt="World AIDS Day event"
+                />
+                <div class="portfolio-info">
+                  <h4>World AIDS Day</h4>
+                  <p>Annual global health observance</p>
+                  <a
+                    href="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg"
+                    title="Awareness Event"
+                    data-gallery="portfolio-gallery-awareness"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="event-details.html"
+                    title="Event Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prevention"
+              >
+                <img
+                  src="https://images.pexels.com/photos/7338570/pexels-photo-7338570.jpeg"
+                  class="img-fluid"
+                  alt="HIV testing kit demonstration"
+                />
+                <div class="portfolio-info">
+                  <h4>Home Testing</h4>
+                  <p>Confidential self-testing solutions</p>
+                  <a
+                    href="https://images.pexels.com/photos/7338570/pexels-photo-7338570.jpeg"
+                    title="Testing Methods"
+                    data-gallery="portfolio-gallery-prevention"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="testing-details.html"
+                    title="Testing Info"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Section -->
+
+      <!-- Team Section -->
+      <section id="team" class="team section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <img
+                  src="assets/img/team/team-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Walter White</h4>
+                    <span>Chief Executive Officer</span>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <img
+                  src="assets/img/team/team-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Product Manager</span>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <img
+                  src="assets/img/team/team-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>William Anderson</h4>
+                    <span>CTO</span>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="member">
+                <img
+                  src="assets/img/team/team-4.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Amanda Jepson</h4>
+                    <span>Accountant</span>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+          </div>
+        </div>
+      </section>
+      <!-- /Team Section -->
+
+      <!-- Pricing Section -->
+      <section id="pricing" class="pricing section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Access to Care</h2>
+          <p>
+            HIV prevention and treatment options available through various
+            support programs
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row g-4 g-lg-0">
+            <!-- Basic Testing Tier -->
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pricing-item">
+                <h3>Essential Services</h3>
+                <h4><sup>$</sup>0<span> / service</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> Free HIV testing</li>
+                  <li><i class="bi bi-check"></i> Condom distribution</li>
+                  <li><i class="bi bi-check"></i> Basic counseling</li>
+                  <li class="na">
+                    <i class="bi bi-x"></i> PrEP/PEP medications
+                  </li>
+                  <li class="na"><i class="bi bi-x"></i> Advanced treatment</li>
+                </ul>
+                <div class="text-center">
+                  <a href="#testing" class="buy-btn">Access Services</a>
+                </div>
+              </div>
+            </div>
+            <!-- End Tier -->
+
+            <!-- Prevention Tier -->
+            <div
+              class="col-lg-4 featured"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="pricing-item">
+                <h3>Prevention Care</h3>
+                <h4><sup>$</sup>0<span> / program</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> PrEP/PEP availability</li>
+                  <li><i class="bi bi-check"></i> Regular testing</li>
+                  <li><i class="bi bi-check"></i> Risk counseling</li>
+                  <li><i class="bi bi-check"></i> Needle exchange</li>
+                  <li><i class="bi bi-check"></i> Partner notification</li>
+                </ul>
+                <div class="text-center">
+                  <a href="#prevention" class="buy-btn">Start Prevention</a>
+                </div>
+              </div>
+            </div>
+            <!-- End Tier -->
+
+            <!-- Comprehensive Care Tier -->
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pricing-item">
+                <h3>Full Treatment</h3>
+                <h4><sup>$</sup>0<span> / month</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> Antiretroviral therapy</li>
+                  <li><i class="bi bi-check"></i> Viral load monitoring</li>
+                  <li><i class="bi bi-check"></i> Mental health support</li>
+                  <li><i class="bi bi-check"></i> Nutritional guidance</li>
+                  <li><i class="bi bi-check"></i> Specialist consultations</li>
+                </ul>
+                <div class="text-center">
+                  <a href="#treatment" class="buy-btn">Begin Treatment</a>
+                </div>
+              </div>
+            </div>
+            <!-- End Tier -->
+          </div>
+        </div>
+      </section>
+      <!-- /Pricing Section -->
+
+      <!-- Faq Section -->
+      <section id="faq" class="faq section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>HIV/AIDS FAQs</h2>
+          <p>
+            Common questions about transmission, prevention, and living with HIV
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="faq-container">
+                <div
+                  class="faq-item faq-active"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>How is HIV transmitted?</h3>
+                  <div class="faq-content">
+                    <p>
+                      HIV spreads through specific bodily fluids: <br />- Blood
+                      <br />- Semen <br />- Vaginal fluids <br />- Rectal fluids
+                      <br />- Breast milk <br />Common transmission routes
+                      include unprotected sex, sharing needles, and
+                      mother-to-child during birth/breastfeeding.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Can HIV be prevented?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Yes! Effective prevention methods include: <br />- Using
+                      condoms consistently <br />- PrEP (pre-exposure
+                      prophylaxis) <br />- PEP (post-exposure prophylaxis)
+                      <br />- Regular testing <br />- Undetectable =
+                      Untransmittable (U=U) treatment <br />- Sterile needle
+                      programs
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Can I get HIV from casual contact?</h3>
+                  <div class="faq-content">
+                    <p>
+                      No. HIV cannot be transmitted through: <br />- Hugging or
+                      shaking hands <br />- Sharing food/drinks <br />- Toilet
+                      seats <br />- Mosquito bites <br />- Saliva, tears, or
+                      sweat <br />Normal social contact is completely safe.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>How often should I get tested?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Testing frequency depends on risk factors: <br />-
+                      Sexually active adults: At least once yearly <br />-
+                      Multiple partners/condomless sex: Every 3-6 months <br />-
+                      PEP/PrEP users: Every 3 months <br />- Pregnant women:
+                      Early prenatal testing <br />Immediate testing if exposure
+                      suspected
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Is HIV still fatal?</h3>
+                  <div class="faq-content">
+                    <p>
+                      With modern treatment: <br />- People with HIV can live
+                      normal lifespans <br />- ART (antiretroviral therapy)
+                      suppresses the virus <br />- 99% reduction in transmission
+                      risk when undetectable <br />- Early diagnosis is crucial
+                      <br />While not curable yet, HIV is a manageable chronic
+                      condition
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Faq Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Get in Touch</h2>
+          <p>
+            Confidential support and information about HIV prevention and
+            treatment
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-geo-alt"></i>
+                <h3>Visit Us</h3>
+                <p>HIV Support Center<br />123 Health Way, Clinic District</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center info-item-borders"
+              >
+                <i class="bi bi-telephone"></i>
+                <h3>24/7 Hotline</h3>
+                <p>1-800-448-0448<br />(National HIV/AIDS Hotline)</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-envelope"></i>
+                <h3>Email Support</h3>
+                <p>support@hivawareness.org<br />confidential@hivcare.org</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+
+          <form
+            action="forms/contact.php"
+            method="post"
+            class="php-email-form"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Your Name (Optional)"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="Your Email (Optional)"
+                />
+              </div>
+
+              <div class="col-md-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  placeholder="Subject related to HIV..."
+                  required
+                />
+              </div>
+
+              <div class="col-md-12">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="6"
+                  placeholder="Your confidential message..."
+                  required
+                ></textarea>
+                <small class="text-muted"
+                  >All inquiries are private and anonymous</small
+                >
+              </div>
+
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Your message has been received. A specialist will respond
+                  within 24 hours.
+                </div>
+
+                <button type="submit">Send Confidential Message</button>
+              </div>
+            </div>
+          </form>
+          <!-- End Contact Form -->
+        </div>
+      </section>
+      <!-- /Contact Section -->
+
+      <!-- Audio Section -->
+      <section id="audio-resources" class="audio-section section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Audio Resources</h2>
+          <p>
+            Listen to educational content about HIV/AIDS prevention, treatment,
+            and living positively
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="audio-card">
+                <div class="audio-image">
+                  <img
+                    src="https://images.pexels.com/photos/7338562/pexels-photo-7338562.jpeg"
+                    alt="Prevention Education"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="audio-content">
+                  <h4>Understanding PrEP</h4>
+                  <p>
+                    Learn about pre-exposure prophylaxis and how it prevents HIV
+                    infection
+                  </p>
+                  <audio controls class="custom-audio-player">
+                    <source
+                      src="assets/audio/understanding-prep.mp3"
+                      type="audio/mpeg"
+                    />
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
             </div>
 
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email (Optional)">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="audio-card">
+                <div class="audio-image">
+                  <img
+                    src="https://images.pexels.com/photos/6646376/pexels-photo-6646376.jpeg"
+                    alt="Treatment Information"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="audio-content">
+                  <h4>Living with HIV</h4>
+                  <p>
+                    Stories and advice from people living positively with HIV
+                  </p>
+                  <audio controls class="custom-audio-player">
+                    <source
+                      src="assets/audio/living-with-hiv.mp3"
+                      type="audio/mpeg"
+                    />
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
             </div>
 
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject related to HIV..." required>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="audio-card">
+                <div class="audio-image">
+                  <img
+                    src="https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg"
+                    alt="Research Updates"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="audio-content">
+                  <h4>Treatment Advances</h4>
+                  <p>Latest research and treatment options in HIV care</p>
+                  <audio controls class="custom-audio-player">
+                    <source
+                      src="assets/audio/treatment-advances.mp3"
+                      type="audio/mpeg"
+                    />
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Audio Section -->
+
+      <!-- Prevention Section with Updated Images -->
+      <section id="prevention" class="prevention section light-background">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>HIV Prevention</h2>
+          <p>
+            Learn about proven methods to prevent HIV transmission and protect
+            yourself and others
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="prevention-card">
+                <img
+                  src="assets/img/prevention/prep-medication.jpg"
+                  alt="PrEP Medication"
+                  class="img-fluid"
+                />
+                <div class="prevention-content">
+                  <h3>Pre-exposure Prophylaxis (PrEP)</h3>
+                  <p>
+                    PrEP is a daily pill that can prevent HIV infection in
+                    people who are at high risk. When taken as prescribed, PrEP
+                    reduces the risk of getting HIV from sex by about 99%.
+                  </p>
+                  <a href="#" class="read-more"
+                    >Learn More About PrEP <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
             </div>
 
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Your confidential message..."
-                required></textarea>
-              <small class="text-muted">All inquiries are private and anonymous</small>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="prevention-card">
+                <img
+                  src="assets/img/prevention/pep-treatment.jpg"
+                  alt="PEP Treatment"
+                  class="img-fluid"
+                />
+                <div class="prevention-content">
+                  <h3>Post-exposure Prophylaxis (PEP)</h3>
+                  <p>
+                    PEP is an emergency medication taken within 72 hours after
+                    possible exposure to HIV. It must be taken for 28 days to be
+                    effective in preventing HIV infection.
+                  </p>
+                  <a href="#" class="read-more"
+                    >Learn More About PEP <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Prevention Section -->
+    </main>
 
-            <div class="col-md-12 text-center">
+    <footer id="footer" class="footer dark-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">HIV/AIDS Awareness</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Botswana National HIV/AIDS Support Center</p>
+              <p>Plot 54362, Central Business District</p>
+              <p class="mt-3">
+                <strong>24/7 Hotline:</strong> <span>+267 800 555 888</span>
+              </p>
+              <p>
+                <strong>Email:</strong> <span>support@hivawarenessbw.org</span>
+              </p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="https://twitter.com/UNAIDS" target="_blank"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/NationalAIDSCommissionBW/"
+                target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/healthministrybw/"
+                target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/botswana-health/"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About HIV</a></li>
+              <li><a href="#testing">Get Tested</a></li>
+              <li><a href="#prevention">Prevention</a></li>
+              <li><a href="#treatment">Treatment</a></li>
+              <li><a href="#contact">Emergency Contacts</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Support Services</h4>
+            <ul>
+              <li><a href="#counseling">Counseling</a></li>
+              <li><a href="#art">ART Access</a></li>
+              <li><a href="#support-groups">Support Groups</a></li>
+              <li><a href="#faq">HIV FAQs</a></li>
+              <li><a href="#privacy">Confidentiality Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Stay Informed</h4>
+            <p>
+              Subscribe for updates on HIV prevention, treatment advances, and
+              community events
+            </p>
+            <form
+              action="forms/newsletter.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="newsletter-form">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+                <input type="submit" value="Subscribe" />
+              </div>
               <div class="loading">Loading</div>
               <div class="error-message"></div>
-              <div class="sent-message">Your message has been received. A specialist will respond within 24 hours.</div>
-
-              <button type="submit">Send Confidential Message</button>
-            </div>
-
-          </div>
-        </form><!-- End Contact Form -->
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">HIV/AIDS Awareness</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>Botswana National HIV/AIDS Support Center</p>
-            <p>Plot 54362, Central Business District</p>
-            <p class="mt-3"><strong>24/7 Hotline:</strong> <span>+267 800 555 888</span></p>
-            <p><strong>Email:</strong> <span>support@hivawarenessbw.org</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href="https://twitter.com/UNAIDS" target="_blank"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.facebook.com/NationalAIDSCommissionBW/" target="_blank"><i
-                class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/healthministrybw/" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/botswana-health/" target="_blank"><i
-                class="bi bi-linkedin"></i></a>
+              <div class="sent-message">
+                Thank you for joining our awareness community!
+              </div>
+            </form>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#about">About HIV</a></li>
-            <li><a href="#testing">Get Tested</a></li>
-            <li><a href="#prevention">Prevention</a></li>
-            <li><a href="#treatment">Treatment</a></li>
-            <li><a href="#contact">Emergency Contacts</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Support Services</h4>
-          <ul>
-            <li><a href="#counseling">Counseling</a></li>
-            <li><a href="#art">ART Access</a></li>
-            <li><a href="#support-groups">Support Groups</a></li>
-            <li><a href="#faq">HIV FAQs</a></li>
-            <li><a href="#privacy">Confidentiality Policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Stay Informed</h4>
-          <p>Subscribe for updates on HIV prevention, treatment advances, and community events</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form">
-              <input type="email" name="email" placeholder="Enter your email">
-              <input type="submit" value="Subscribe">
-            </div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Thank you for joining our awareness community!</div>
-          </form>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">HIV Awareness Botswana</strong>
+          <span>2025. All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          Developed in partnership with
+          <a href="https://www.moh.gov.bw/" target="_blank">MoH Botswana</a>
         </div>
       </div>
-    </div>
+    </footer>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">HIV Awareness Botswana</strong> <span>2025. All Rights
-          Reserved</span></p>
-      <div class="credits">
-        Developed in partnership with <a href="https://www.moh.gov.bw/" target="_blank">MoH Botswana</a>
-      </div>
-    </div>
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
