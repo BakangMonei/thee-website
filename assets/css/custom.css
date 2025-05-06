@@ -378,3 +378,95 @@
     transform: translateY(0);
   }
 }
+
+/* Medication Adherence Section Styles */
+.adherence-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: 0.3s;
+}
+
+.adherence-card:hover {
+  transform: translateY(-5px);
+}
+
+.adherence-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.adherence-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #2c4964;
+}
+
+.adherence-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.adherence-list li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.adherence-list li i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.adherence-list li i.bi-check2 {
+  color: #28a745;
+}
+
+.adherence-list li i.bi-x-circle {
+  color: #dc3545;
+}
+
+.strategy-item {
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.strategy-item:hover {
+  background: #e9ecef;
+}
+
+.strategy-item i {
+  font-size: 2rem;
+  color: #2c4964;
+  margin-bottom: 15px;
+}
+
+.strategy-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #2c4964;
+}
+
+.strategy-item p {
+  margin: 0;
+  color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .adherence-card {
+    margin-bottom: 30px;
+  }
+  
+  .strategy-item {
+    margin-bottom: 20px;
+  }
+}
